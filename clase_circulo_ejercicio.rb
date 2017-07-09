@@ -8,8 +8,19 @@ perímetro. Recuerda que la formula para obtener el perímetro de un círculo es
 
 def Circulo
   @circulo = circulo 
+  
 end
 
-def calcular_perimetro
-  puts 
-end 
+
+ def calcular_perimetro
+  @diametro = perimetro
+  perimetro = 2 * 3,14 * (perimetro/2)
+ end 
+ 
+ 
+ 
+ mi_perimetro = Circulo.new(perimetro)
+ 
+ 
+ 
+ 
